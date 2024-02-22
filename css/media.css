@@ -1,0 +1,12 @@
+@media(max-width: 1024px) {
+    .header_logo{
+        width: 70%;
+    }
+    .header nav{
+        display: none;
+    }
+    .burger-menu{
+        display: flow;
+
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* Add some basic styles for the dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header_logo">
+                <marquee behavior="alternate" direction="left" scrollamount="15">
+                    <h1>НЕЙРОСЕТЬ</h1>
+                </marquee>
+            </div>
+            <nav>
+                <div class="dropdown">
+                    <a href="#">Тема</a>
+                    <div class="dropdown-content">
+                        <a href="#">Подтема 1</a>
+                        <a href="#">Подтема 2</a>
+                        <!-- Add more subtopics as needed -->
+                    </div>
+                </div>
+                <a href="#">Об авторе</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- Your page content goes here -->
+
+</body>
+
+</html>

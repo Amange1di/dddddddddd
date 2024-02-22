@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.avto{
+    padding: 40px;
+}
+.avto_hero {
+
+    background-color: #fff;
+    padding: 40px ;
+}
+
+.avto_hero h1 {
+    margin-top: 5px;
+    color: #0078d4;
+}
+.avto_hero h2 {
+    margin-top: 5px;
+    color: #072134;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.avto_hero p{
+    font-size: 20px;
+    color: black;
+}
+.avto  a{
+    font-size: 18px;
+    padding: 5px 15px;
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 15px 0 0  70%;
+    border: 2px solid blue;
+cursor: no-drop;
+
+}
+
+.avto  a:hover{
+    background: transparent;
+    color: blue;
+}
